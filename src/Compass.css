@@ -1,0 +1,33 @@
+.compass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .compass {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .compass-pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    transition: transform 0.5s ease;
+  }
+  
+  .wind-direction {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

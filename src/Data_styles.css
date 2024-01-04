@@ -1,0 +1,103 @@
+body{
+  background-color: lightblue;
+  overflow-x: hidden;
+}
+.temp_place{
+   text-align: center;
+   margin-top: 0;
+   font-size: 2.5rem;
+    margin: 0;
+}
+.type{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.highlow{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.weather-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .weather-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .heading {
+    font-size: 2.2rem;
+    color: #333;
+  }
+  
+  .location,
+  .temperature {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  .high-low-temperature{
+    font-weight: bold;
+    color: #555;
+  }
+  .weather-description {
+    font-size: 1.5rem;
+    color: #777;
+  }
+  .weatherLogo{
+    scale: 0.8;
+  }
+  .uv-chart {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    height: 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .uv-level {
+    height: 100%;
+    transition:  width 0.5s ease-in;
+  }
+  .uv-level.fade-in {
+    opacity: 1; 
+  }
+  .uv-dot {
+    position: relative;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: inherit;
+}
+.sun_img{
+  scale: 0.7;
+}
+/* .humidity{
+  display: flex;
+} */
+.dat{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.col{
+  margin: 5% 2% 5% 2% ;
+  flex-direction: row;
+}
+.humidity_img{
+  margin-top: 8px;
+  width: 25%;
+  height: 40%;
+}
+.umb{
+  display: inline;
+  scale: 2;
+  margin-top: 17%;
+  margin-right: 10%;
+}

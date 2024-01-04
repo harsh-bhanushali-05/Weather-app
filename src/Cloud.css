@@ -1,0 +1,20 @@
+.cloud {
+    position: absolute;
+    top: 50%;
+    width: 100px; /* Adjust the width and height according to your design */
+    height: 60px;
+    background: #fff; /* Set the background color/image of your cloud */
+    border-radius: 50px; /* Adjust the border radius to make it look like a cloud */
+    animation: cloudAnimation 10s infinite alternate;
+  }
+  
+  @keyframes cloudAnimation {
+    0% {
+      left: 2%;
+    }
+  
+    100% {
+      left: -2%;
+    }
+  }
+  
